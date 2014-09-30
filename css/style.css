@@ -1,0 +1,301 @@
+/* Space out content a bit */
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden; /* For Opera */
+  /*
+  box-shadow: inset #f7e500 0 0 0 5px, inset #f7f700 0 0 0 7px, inset #e5f700 0 0 0 10px;
+  padding: 40px;
+  */
+  color: #5A5A58;
+}
+
+#map-canvas {
+  margin: 0px;
+  padding: 0px;
+  height: 400px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  text-align: center;
+}
+
+.details {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h1 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 20px;
+  padding-bottom: 50px; 
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 900px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+.jumbotron {
+  background: transparent; 
+  padding: 80px 0;
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron h2, .jumbotron .h2 {
+    font-size: 32px;
+    font-family: Georgia, serif;
+  }
+  .jumbotron p {
+    font-size: 17px;
+  }
+}
+
+  .jumbotron h2, .jumbotron .h2 {
+    font-size: 32px;
+    font-family: Georgia, serif;
+  }
+  .jumbotron p {
+    font-size: 17px;
+  }
+
+
+.tito-tickets-button {
+  background: transparent;
+  border: 0;
+}
+
+button:focus {outline:0;}
+
+blockquote {
+  border-left: none;
+  font-size: 14px;
+}
+
+.page-header {
+  margin: 0 0 15px;
+  border: 0;
+  padding-bottom: 10px;
+}
+
+.page-header:after {
+  display: block;
+  width: 25px;
+  height: 0;
+  border-bottom: 3px solid #000;
+  content: "";
+  margin-top: 8px;
+}
+
+.page-header h2 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.dl-horizontal dt {
+  width: 100px;
+  font-size: 17px;
+  float: left;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dl-horizontal dd {
+  margin-left: 115px;
+  font-size: 16px;
+  text-align: left;
+}
+
+dl {
+  margin-bottom: 5px;
+}
+
+#questions {
+  padding: 20px 0;
+}
+
+#questions p.lead {
+  font-family: Georgia, serif;
+}
+
+.marketing img.event {
+  margin: 15px 0;
+  height: 300px;
+}
+
+.speaker img {
+  margin: 0px 10px 10px 0;
+  float: left;
+}
+
+.speaker {
+  margin: 20px 0;
+}
+
+#test-wrap {
+  color: #fff;
+  background: #6D00D9;
+  padding: 40px 0;
+}
+
+#questions {
+  background: #A64DFF;
+  color: #fff;
+}
+
+#questions a {
+  color: #fff;
+}
+
+#footer-wrap {
+  background: #00D9A3;
+  color: #fff;
+  padding: 40px 0;
+}
+
+#top-wrap {
+  background: url("../img/bg2.jpg") no-repeat;
+  color: #fff;
+  background-size: cover;
+}
+
+#schedule-wrap {
+  padding: 30px 0px 30px 0;
+  background: #A64DFF;
+  color: #fff;
+}
+
+.header .col-sm-3 {
+  background: rgba(255, 255, 255, 0.55);
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+.btn-custom {
+  background: #00D9A3;
+  color: #013F2D;
+
+}
+
+.btn-custom3 {
+  background: #A64DFF;
+  color: #fff;
+    font-weight: bold;
+}
+
+.btn-custom3:hover {
+  background: #B973FF;
+ color: #fff;
+}
+
+.btn-custom2 {
+  background: #00D9A3;
+  color: #fff;
+  font-size: 22px;
+
+}
+.btn-custom2:hover {
+  background: #136E4B;
+  color: #eeeeee;
+  font-size: 22px;
+
+}
+
+.marketing .glyphicon-ok {
+  color: #5cb85c;
+  margin-right: 5px;
+}
+
+h2.schedule {
+  margin: 40px 0px 60px 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+h2.schedule2 {
+  margin: 20px 0px 20px 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2.testt {
+  margin: 10px 0px 20px 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
